@@ -14,108 +14,122 @@
 <body>
   <header class="header">
     <h1>"Planner" Your Day</h1>
-    <p>Daily Planner App to keep you on schedule from start of your day to the end</p>
-    <p id="currentDay"</p>
+    <p>Daily Planner App to keep you on schedule from the start of your day to the end of it!</p>
+    <p id="todaysDate"</p>
     <details>
       <summary>How it works!</summary>
       <li>Click on any corresponding text area, <br>type your plan/goal for the hour, <br>then click the save button!</li></br>
-      <li><span class="past">grey text area:</span><br> the hour has already passed</li></br>
-      <li><span class="present">yellow text area:</span><br> the hour you are currently on</li></br>
-      <li><span class="future">green text area:</span><br> the hour has not passed yet</li>
+      <li><span class="past">grey text area:</span><br> this hour has passed</li></br>
+      <li><span class="present">yellow text area:</span><br> this is the current hour</li></br>
+      <li><span class="future">green text area:</span><br> this hour is in the future</li>
     </details>
     <br>
     <section class='text-center noti-1' id="notify">Note saved to <code>your Planner</code> ✔️ <br> Have a great morning!</section>
-    <section class='text-center noti-2' id="notify">Note saved to <code>your Planner</code> ✔️ <br> Have a great Afternoon!</section>
+    <section class='text-center noti-2' id="notify">Note saved to <code>your Planner</code> ✔️ <br> YAY it's the Afternoon!</section>
     <br>
   </header>
   <div class="container">
-    <div id="hour-9" class="row time-block">
+    <div id="hour-8" class="row hour-block">
       <div class="col-md-1 hour">
         08:00AM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="Make some breakfast and coffee, and start your day">
+      <textarea class="col-md-10 text text-center" placeholder="Make some breakfast and coffee, and start your day">
       </textarea>
-      <button class="btn saveBtn-1 col-md-1">SAVE</button>
+      <button class="btn saveBtn-1 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-9" class="row time-block">
+    <div id="hour-9" class="row hour-block">
       <div class="col-md-1 hour">
         09:00AM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="What are your goals for work?">
+      <textarea class="col-md-10 text text-center" placeholder="What are your goals for work?">
       </textarea>
-      <button class="btn saveBtn-1 col-md-1">SAVE</button>
+      <button class="btn saveBtn-1 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-10" class="row time-block">
+    <div id="hour-10" class="row hour-block">
       <div class="col-md-1 hour">
         10:00AM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="How are your goals going?">
+      <textarea class="col-md-10 text text-center" placeholder="How are your goals going?">
       </textarea>
-      <button class="btn saveBtn-1 col-md-1">SAVE</button>
+      <button class="btn saveBtn-1 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-11" class="row time-block">
+    <div id="hour-11" class="row hour-block">
       <div class="col-md-1 hour">
         11:00AM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="Will you be able to finish your 10am goal before lunch?"></textarea>
+      <textarea class="col-md-10 text text-center" placeholder="Will you be able to finish your 10am goal before lunch?"></textarea>
       </textarea>
-      <button class="btn saveBtn-1 col-md-1">SAVE</button>
+      <button class="btn saveBtn-1 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-12" class="row time-block">
+    <div id="hour-12" class="row hour-block">
       <div class="col-md-1 hour">
         12:00PM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="Have some lunch!">
+      <textarea class="col-md-10 text text-center" placeholder="Have some lunch!">
       </textarea>
-      <button class="btn saveBtn-2 col-md-1">SAVE</button>
+      <button class="btn saveBtn-2 col-md-1 shrink-border">SAVE</button>
     </div>
-   <div id="hour-13" class="row time-block">
+   <div id="hour-13" class="row hour-block">
       <div class="col-md-1 hour">
         01:00PM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="Only a few more hours of work to go!">
+      <textarea class="col-md-10 text text-center" placeholder="Only a few more hours of work to go!">
       </textarea>
-      <button class="btn saveBtn-2 col-md-1">SAVE</button>
+      <button class="btn saveBtn-2 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-14" class="row time-block">
+    <div id="hour-14" class="row hour-block">
       <div class="col-md-1 hour">
         02:00PM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="Present your project!">
+      <textarea class="col-md-10 text text-center" placeholder="Present your project">
       </textarea>
-      <button class="btn saveBtn-2 col-md-1">SAVE</button>
+      <button class="btn saveBtn-2 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-15" class="row time-block">
+    <div id="hour-15" class="row hour-block">
      <div class="col-md-1 hour">
         03:00PM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="make some breakfast and coffee, and leave for work">
+      <textarea class="col-md-10 text text-center" placeholder="Have a snack!">
       </textarea>
-      <button class="btn saveBtn-2 col-md-1">SAVE</button>
+      <button class="btn saveBtn-2 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-16" class="row time-block">
+    <div id="hour-16" class="row hour-block">
       <div class="col-md-1 hour">
         04:00PM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="make some breakfast and coffee, and leave for work">
+      <textarea class="col-md-10 text text-center" placeholder="Only 1 hour to go!">
       </textarea>
-      <button class="btn saveBtn-2 col-md-1">SAVE</button>
+      <button class="btn saveBtn-2 col-md-1 shrink-border">SAVE</button>
     </div>
-    <div id="hour-17" class="row time-block">
+    <div id="hour-17" class="row hour-block">
       <div class="col-md-1 hour">
         05:00PM
       </div>
-      <textarea class="col-md-10 description text-center" placeholder="make some breakfast and coffee, and leave for work">
+      <textarea class="col-md-10 text text-center" placeholder="Head to the gym after work?">
       </textarea>
-      <button class="btn saveBtn-2 col-md-1">SAVE</button>
+      <button class="btn saveBtn-2 col-md-1 shrink-border">SAVE</button>
     </div>
-  <footer>
-    <br></br><br></br>
-  </footer>
+  
     <!-- needed script tags -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/assets/script.js"></script>
+
+  <footer class="footer">
+    <div class="row align-items-center">
+      <div class="col">
+        <a href="">Github</a>
+      </div>
+      <div class="col">
+        <a href="">Created by Gino</a>
+      </div>
+      <div class="col">
+        <a href="">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
 </body>
+
+
 
 </html>

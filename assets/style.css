@@ -7,11 +7,8 @@ body {
 
 textarea {
   background: transparent;
-  border-color: black;
-  resize: none;
   color: #000000;
   border: 1px solid black;
-  padding: 10px;
 }
 
 h1 {
@@ -26,23 +23,22 @@ p {
   text-align: center;
   background-color:  #6988a7;
   color: black;
-  border-radius: 0;
-  border-bottom: 5px solid black;
+  border-bottom: 1px solid white;
 }
 
-.description {
-  white-space: pre-wrap;
+.container {
+  margin-top: 30px;
 }
 
-.time-block {
+.hour-block {
   text-align: center;
   border-radius: 15px;
 }
 
 .row {
-  white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  margin-bottom: 5px;
 }
 
 .hour {
@@ -52,11 +48,10 @@ p {
   border-bottom-left-radius: 15px;
   color: #000000;
   font-size: 20px;
- 
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: lightgrey;
   color: black;
 }
 
@@ -66,24 +61,20 @@ p {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: rgb(59, 216, 59);
   color: black;
 }
 
-.saveBtn-1, .saveBtn-2, .saveBtn-3 {
+.saveBtn-1, .saveBtn-2 {
   border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #6dbfd3;
   color: black;
-}
-
-.saveBtn-1, .saveBtn-2, .saveBtn-3 i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
 }
 
-.noti-1, .noti-2, .noti-3{
+.noti-1, .noti-2{
   display: none;
   padding-bottom: 10px;
   color: black;
@@ -91,4 +82,15 @@ p {
 
 .show {
   display: block;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  background-color:  #6988a7;
+  color: black;
+}
+
+a {
+  color: black;
 }
