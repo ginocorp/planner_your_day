@@ -1,70 +1,93 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1;
-  color: #7abfdf;
-}
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  color: #7db2ce;
+  background-color: lightblue;
 }
 
 textarea {
   background: transparent;
-  border: none;
+  border-color: black;
   resize: none;
+  color: #000000;
+  border: 1px solid black;
   padding: 10px;
-  margin: 10px;
 }
 
-.jumbotron {
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.header {
   text-align: center;
+  background-color: lightblue;
+  color: black;
+  border-radius: 0;
+  border-bottom: 5px solid black;
 }
 
-.lead {
-  padding-top: 10px;
-}
-
-.description{
-  margin: 10px;
-  padding: 10px;
+.description {
   white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid #b4c5ce;
+  border-top: 1px solid white;
 }
 
 .hour {
-  border-right: 1px solid #434a4e;
-  margin: 10px;
-  padding: 10px;
+  background-color: lightblue;
+  border: 1px solid black;
+  color: #000000;
+  font-size: large;
+  font-weight: bold;
   text-align: center;
 }
 
 .past {
-  background-color: #ACCBE1;
-  color: white;
+  background-color: #d3d3d3;
+  color: black;
 }
 
 .present {
-  background-color: #7C98B3;
-  color: white;
+  background-color: yellow;
+  color: black;
 }
 
 .future {
-  background-color: #ffffff;
+  background-color: #77dd77;
+  color: black;
 }
 
-.saveBtn {
-  background-color: rgba(99, 112, 129, 0.75);
-  border: none;
-  color: #ffffff; 
+.saveBtn-1, .saveBtn-2, .saveBtn-3 {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
 }
 
-.saveBtn:hover {
-  background-color: rgba(99, 112, 129, 1);
+.saveBtn-1, .saveBtn-2, .saveBtn-3 i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.noti-1, .noti-2, .noti-3{
+  display: none;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.show {
+  display: block;
 }
