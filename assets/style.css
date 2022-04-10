@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1;
-  background-color: lightblue;
+  background-color: #6988a7;
 }
 
 textarea {
@@ -24,7 +24,7 @@ p {
 
 .header {
   text-align: center;
-  background-color: lightblue;
+  background-color:  #6988a7;
   color: black;
   border-radius: 0;
   border-bottom: 5px solid black;
@@ -46,12 +46,13 @@ p {
 }
 
 .hour {
-  background-color: lightblue;
+  background-color: #6dbfd3;;
   border: 1px solid black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   color: #000000;
-  font-size: large;
-  font-weight: bold;
-  text-align: center;
+  font-size: 20px;
+ 
 }
 
 .past {
@@ -70,11 +71,11 @@ p {
 }
 
 .saveBtn-1, .saveBtn-2, .saveBtn-3 {
-  border-left: 1px solid black;
+  border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: #6dbfd3;
+  color: black;
 }
 
 .saveBtn-1, .saveBtn-2, .saveBtn-3 i:hover {

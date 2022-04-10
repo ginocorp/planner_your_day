@@ -1,11 +1,11 @@
-$(document).ready(function () {
-  // listen for save button clicks
-  $('.saveBtn-1').on('click', function () {
-    // get nearby values
-    var value = $(this).siblings('.description').val();
-    var time = $(this).parent().attr('id');
+$(document).ready( () => {
+  //listening for saveBtn click
+  $('.saveBtn-1').on('click', () => {
+    //grabbing sibling and parent values of each hour
+    var script = $(this).siblings('.description').val();
+    var hours = $(this).parent().attr('id');
 
-    // save in localStorage
+    //localStorage save
     localStorage.setItem(time, value);
 
     // This is displaying that the note has been saved after the save btn is clicked
@@ -15,32 +15,8 @@ $(document).ready(function () {
     setTimeout(function () {
       $('.noti-1').removeClass('show');
     }, 3000);
+  });
 
-    $('.noti-3').addClass('show');
-
-    setTimeout(function () {
-      $('.noti-3').removeClass('show');
-    }, 3000);
-
-    
-});
-
-$(document).ready(function () {
-  // listen for save button clicks
-  $('.saveBtn-2').on('click', function () {
-    // get nearby values
-    var value = $(this).siblings('.description').val();
-    var time = $(this).parent().attr('id');
-
-    // save in localStorage
-    localStorage.setItem(time, value);
-
-  $('.noti-2').addClass('show');
-
-    setTimeout(function () {
-      $('.noti-2').removeClass('show');
-    }, 3000);
-});
 
   function hourUpdater() {
     // get current number of hours
@@ -79,12 +55,7 @@ $(document).ready(function () {
   $('#hour-15 .description').val(localStorage.getItem('hour-15'));
   $('#hour-16 .description').val(localStorage.getItem('hour-16'));
   $('#hour-17 .description').val(localStorage.getItem('hour-17'));
-  $('#hour-18 .description').val(localStorage.getItem('hour-18'));
-  $('#hour-19 .description').val(localStorage.getItem('hour-19'));
-  $('#hour-20 .description').val(localStorage.getItem('hour-20'));
-  $('#hour-21 .description').val(localStorage.getItem('hour-21'));
-  $('#hour-22 .description').val(localStorage.getItem('hour-22'));
-
+  
   // display current day on page
   $('#currentDay').text(moment().format('dddd, MMMM Do'));
 });
