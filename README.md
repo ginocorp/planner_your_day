@@ -20,7 +20,7 @@
 ## Usage
 
 ![](/assets/images/Hourly_Planner.gif)
-* [CODE](https://github.com/ginocorp/5-Day-Planner/blob/master/assets/script.js)
+* [CODE](https://github.com/ginocorp/planner_your_day/blob/master/script.js)
 * [WEBPAGE]()
 * HTML
 * CSS
