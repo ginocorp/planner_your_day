@@ -2,7 +2,7 @@
 
 ## Description
 
-* Javascript app used to plan and schedule your hourly tasks for the typical workday.
+* Simple Javascript app using Jquery and Moment extensions to plan and schedule your hourly tasks for the typical workday.
 
 ## Table of Content
 
@@ -19,11 +19,14 @@
 
 ## Usage
 
-![](/assets/images/hourly_planner.gif)
+![](/assets/images/Hourly_Planner.gif)
 * [CODE](https://github.com/ginocorp/5-Day-Planner/blob/master/assets/script.js)
+* [WEBPAGE]
 * HTML
 * CSS
 * Javascript
+* JQuery
+* Bootstrap
 * Variables Created
 * Moments Date and Time
 
